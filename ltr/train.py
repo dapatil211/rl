@@ -22,6 +22,8 @@ env = RunEnv(visualize=False)
 action_space = env.action_space
 ob_space = env.observation_space
 stepsize = tf.Variable(initial_value=np.float32(np.array(0.001)), name='stepsize')
+inc_stepsize = tf.assign(stepsize, stepsize * 1.5)
+dec_stepsize = tf.assign(stepsize, stepsize / 1.5)
 
 with tf.variable_scope("global") as vs:
     with tf.variable_scope("pi"):
@@ -53,7 +55,7 @@ for i in range(num_threads):
       discount_factor = 0.99,
       max_global_steps=1e6,
       desired_kl=.002,
-      stepsize=stepsize)
+      stepsize_ops=(inc_stepsize, dec_stepsize))
     workers.append(worker)
 
 print("CREATED WORKERS")
@@ -115,7 +117,7 @@ with tf.Session() as sess:
         worker_threads.append(t)
 
   # Start a thread for policy eval task
-    monitor_thread = threading.Thread(target=lambda: test(60, sess, coord, policy))
+    monitor_thread = threading.Thread(target=lambda: test(300, sess, coord, policy))
     monitor_thread.start()
 
   # Wait for all workers to finish

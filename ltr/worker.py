@@ -43,7 +43,7 @@ def rollout(env, policy, counter):
     return path, global_count
 
 class Worker():
-    def __init__(self, name, policy_net, value_net, env, global_counter, stepsize, discount_factor=0.99, summary_writer=None, max_global_steps=None, desired_kl=.002):
+    def __init__(self, name, policy_net, value_net, env, global_counter, stepsize_ops, discount_factor=0.99, summary_writer=None, max_global_steps=None, desired_kl=.002):
         self.name = name
         self.discount_factor = discount_factor
         self.max_global_steps = max_global_steps
@@ -53,11 +53,11 @@ class Worker():
         self.summary_writer = summary_writer
         self.env = env
         self.desired_kl = desired_kl
-        self.stepsize = stepsize
+        self.inc_stepsize, self.dec_stepsize = stepsize_ops
 
         with tf.variable_scope(name):
             with tf.variable_scope("pi"):
-                self.policy_net = PolicyNet(env.observation_space.shape[0], env.action_space.shape[0], stepsize, name)
+                self.policy_net = PolicyNet(env.observation_space.shape[0], env.action_space.shape[0], .001, name)
             with tf.variable_scope("vf"):
                 self.value_net = ValueNet(env.observation_space.shape[0], env.action_space.shape[0], name)
 
@@ -69,7 +69,7 @@ class Worker():
         self.state = None
 
 
-    def run(self, sess, coord, timesteps_per_batch=2500):
+    def run(self, sess, coord, timesteps_per_batch=1000):
         with sess.as_default(), sess.graph.as_default():
             global_count = 0
             while not coord.should_stop():
@@ -111,9 +111,9 @@ class Worker():
                 kl = self.global_policy_net.compute_kl(states, action_dists)
                 
                 if kl > self.desired_kl * 2:
-                    tf_util.eval(tf.assign(self.stepsize, self.stepsize / 1.5))
+                    sess.run([self.dec_stepsize])
                 elif kl < self.desired_kl * .5:
-                    tf_util.eval(tf.assign(self.stepsize, self.stepsize * 1.5))
+                    sess.run([self.inc_stepsize])
                 if self.summary_writer:
                     self.summary_writer.add_summary(p_summary, global_count)
                     self.summary_writer.add_summary(v_summary, global_count)
