@@ -35,7 +35,7 @@ episodes_to_watch = 10
 
 model_savefile = "./sp_weights.dump"
 # Configuration file path
-config_file_path = '../ViZDoom/scenarios/defend_the_center.cfg'
+config_file_path = './defend_the_center.cfg'
 
 
 
