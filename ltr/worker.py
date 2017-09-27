@@ -30,8 +30,6 @@ def rollout(env, policy, counter):
     state = np.concatenate([ob, prev_ob], -1)
     for i in range(env.spec.timestep_limit):
         global_count = next(counter)
-        if global_count % 100 == 0:
-            print(global_count)
         action, action_dist = policy.act(state)
         prev_ob = np.copy(ob)
         ob, reward, done, _ = env.step(action)
@@ -71,7 +69,7 @@ class Worker():
         self.state = None
 
 
-    def run(self, sess, coord, timesteps_per_batch=100):
+    def run(self, sess, coord, timesteps_per_batch=2500):
         with sess.as_default(), sess.graph.as_default():
             global_count = 0
             while not coord.should_stop():
@@ -81,7 +79,6 @@ class Worker():
                 while timesteps < timesteps_per_batch:
                     path, global_count = rollout(self.env, self.policy_net, self.global_counter)
                     timesteps += len(path)
-                    print("%s: %d" % (self.name, timesteps))
                     paths.append(path)
 
                 states = []

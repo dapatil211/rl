@@ -73,8 +73,6 @@ class PolicyNet(object):
 
 class ValueNet(object):
     def __init__(self, ob_shape, num_actions, scope="global"):
-        print(ob_shape)
-        print(num_actions)
         state = tf.placeholder(shape=[None, ob_shape * 2 + num_actions + 1], dtype=tf.float32, name="x")
         target = tf.placeholder(shape=[None], name="target", dtype=tf.float32)
 
