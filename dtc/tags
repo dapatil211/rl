@@ -1,291 +1,63 @@
 !_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
-actions	/home/darshan/doom/dtc/doom_dqn.py	/^actions = [list(a) for a in it.product([0, 1], repeat=game.get_available_buttons_size())]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/doom_dqn_feat.py	/^actions = actions[0:6]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/doom_dqn_feat.py	/^actions = [list(a) for a in it.product([0, 1], repeat=game.get_available_buttons_size())]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^actions = [list(a) for a in it.product([0, 1], repeat=game.get_available_buttons_size())]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^actions = actions[0:6]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^actions = [list(a) for a in it.product([0, 1], repeat=game.get_available_buttons_size())]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/play25_model.py	/^actions = actions[0:6]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/play25_model.py	/^actions = [list(a) for a in it.product([0, 1], repeat=game.get_available_buttons_size())]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/play_feat.py	/^actions = [list(a) for a in it.product([0, 1], repeat=game.get_available_buttons_size())]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/play_model.py	/^actions = [list(a) for a in it.product([0, 1], repeat=game.get_available_buttons_size())]$/;"	v	language:Python
-actions	/home/darshan/doom/dtc/play_pen.py	/^actions = [list(a) for a in it.product([0, 1], repeat=game.get_available_buttons_size())]$/;"	v	language:Python
-add	/home/darshan/doom/dtc/doom_dqn.py	/^    def add(self, s1, s2, action, reward):$/;"	m	language:Python	class:Replay
-add	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    def add(self, s1, s2, action, reward):$/;"	m	language:Python	class:Replay
-add	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    def add(self, s1, s2, action, reward):$/;"	m	language:Python	class:Replay
-add	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    def add(self, s1, s2, action, reward):$/;"	m	language:Python	class:Replay
-batch_size	/home/darshan/doom/dtc/doom_dqn.py	/^batch_size = 64$/;"	v	language:Python
-batch_size	/home/darshan/doom/dtc/doom_dqn_feat.py	/^batch_size = 64$/;"	v	language:Python
-batch_size	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^batch_size = 64$/;"	v	language:Python
-batch_size	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^batch_size = 64$/;"	v	language:Python
-best_action_index	/home/darshan/doom/dtc/doom_dqn.py	/^        best_action_index = get_action(state)$/;"	v	language:Python
-best_action_index	/home/darshan/doom/dtc/doom_dqn.py	/^        best_action_index = get_action(state)$/;"	v	language:Python
-best_action_index	/home/darshan/doom/dtc/doom_dqn_feat.py	/^        best_action_index = get_action((vis.view(1, resolution[0], resolution[1], resolution[2]), num.view(1, num.shape[0])))$/;"	v	language:Python
-best_action_index	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^        best_action_index = get_action(state)$/;"	v	language:Python
-best_action_index	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^        best_action_index = get_action(state)$/;"	v	language:Python
-best_action_index	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^        best_action_index = get_action(state)$/;"	v	language:Python
-config_file_path	/home/darshan/doom/dtc/doom_dqn.py	/^config_file_path = '..\/ViZDoom\/scenarios\/defend_the_center.cfg'$/;"	v	language:Python
-config_file_path	/home/darshan/doom/dtc/doom_dqn_feat.py	/^config_file_path = '..\/ViZDoom\/scenarios\/defend_the_center.cfg'$/;"	v	language:Python
-config_file_path	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^config_file_path = '..\/ViZDoom\/scenarios\/defend_the_center.cfg'$/;"	v	language:Python
-config_file_path	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^config_file_path = '..\/ViZDoom\/scenarios\/defend_the_center.cfg'$/;"	v	language:Python
-config_file_path	/home/darshan/doom/dtc/play25_model.py	/^config_file_path = '..\/ViZDoom\/scenarios\/defend_the_center.cfg'$/;"	v	language:Python
-config_file_path	/home/darshan/doom/dtc/play_feat.py	/^config_file_path = '..\/ViZDoom\/scenarios\/defend_the_center.cfg'$/;"	v	language:Python
-config_file_path	/home/darshan/doom/dtc/play_model.py	/^config_file_path = '..\/ViZDoom\/scenarios\/defend_the_center.cfg'$/;"	v	language:Python
-config_file_path	/home/darshan/doom/dtc/play_pen.py	/^config_file_path = '..\/ViZDoom\/scenarios\/defend_the_center.cfg'$/;"	v	language:Python
-curIndex	/home/darshan/doom/dtc/doom_dqn.py	/^    curIndex = 0$/;"	v	language:Python	class:Replay
-curIndex	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    curIndex = 0$/;"	v	language:Python	class:Replay
-curIndex	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    curIndex = 0$/;"	v	language:Python	class:Replay
-curIndex	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    curIndex = 0$/;"	v	language:Python	class:Replay
-discount_factor	/home/darshan/doom/dtc/doom_dqn.py	/^discount_factor = 0.99$/;"	v	language:Python
-discount_factor	/home/darshan/doom/dtc/doom_dqn_feat.py	/^discount_factor = 0.99$/;"	v	language:Python
-discount_factor	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^discount_factor = 0.99$/;"	v	language:Python
-discount_factor	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^discount_factor = 0.99$/;"	v	language:Python
-DQN	/home/darshan/doom/dtc/doom_dqn.py	/^class DQN(nn.Module):$/;"	c	language:Python
-dqn	/home/darshan/doom/dtc/doom_dqn.py	/^dqn = DQN()$/;"	v	language:Python
-DQN	/home/darshan/doom/dtc/doom_dqn_feat.py	/^class DQN(nn.Module):$/;"	c	language:Python
-dqn	/home/darshan/doom/dtc/doom_dqn_feat.py	/^dqn = DQN()$/;"	v	language:Python
-DQN	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^class DQN(nn.Module):$/;"	c	language:Python
-dqn	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^dqn = DQN()$/;"	v	language:Python
-DQN	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^class DQN(nn.Module):$/;"	c	language:Python
-dqn	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^dqn = DQN()$/;"	v	language:Python
-DQN	/home/darshan/doom/dtc/play25_model.py	/^class DQN(nn.Module):$/;"	c	language:Python
-dqn	/home/darshan/doom/dtc/play25_model.py	/^dqn = torch.load(model_savefile)$/;"	v	language:Python
-DQN	/home/darshan/doom/dtc/play_feat.py	/^class DQN(nn.Module):$/;"	c	language:Python
-dqn	/home/darshan/doom/dtc/play_feat.py	/^dqn = torch.load(model_savefile)$/;"	v	language:Python
-DQN	/home/darshan/doom/dtc/play_model.py	/^class DQN(nn.Module):$/;"	c	language:Python
-dqn	/home/darshan/doom/dtc/play_model.py	/^dqn = torch.load(model_savefile)$/;"	v	language:Python
-DQN	/home/darshan/doom/dtc/play_pen.py	/^class DQN(nn.Module):$/;"	c	language:Python
-dqn	/home/darshan/doom/dtc/play_pen.py	/^dqn = torch.load(model_savefile)$/;"	v	language:Python
-episodes_to_watch	/home/darshan/doom/dtc/doom_dqn.py	/^episodes_to_watch = 10$/;"	v	language:Python
-episodes_to_watch	/home/darshan/doom/dtc/doom_dqn_feat.py	/^episodes_to_watch = 10$/;"	v	language:Python
-episodes_to_watch	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^episodes_to_watch = 10$/;"	v	language:Python
-episodes_to_watch	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^episodes_to_watch = 10$/;"	v	language:Python
-episodes_to_watch	/home/darshan/doom/dtc/play25_model.py	/^episodes_to_watch = 10$/;"	v	language:Python
-episodes_to_watch	/home/darshan/doom/dtc/play_feat.py	/^episodes_to_watch = 10$/;"	v	language:Python
-episodes_to_watch	/home/darshan/doom/dtc/play_model.py	/^episodes_to_watch = 10$/;"	v	language:Python
-episodes_to_watch	/home/darshan/doom/dtc/play_pen.py	/^episodes_to_watch = 10$/;"	v	language:Python
-epochs	/home/darshan/doom/dtc/doom_dqn.py	/^epochs = 20$/;"	v	language:Python
-epochs	/home/darshan/doom/dtc/doom_dqn_feat.py	/^epochs = 20$/;"	v	language:Python
-epochs	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^epochs = 20$/;"	v	language:Python
-epochs	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^epochs = 20$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn.py	/^        epsilon = EPS_END$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn.py	/^        epsilon = EPS_START - (i - EPS_CONST) \/ (EPS_DECAY - EPS_CONST) * (EPS_START - EPS_END)$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn.py	/^        epsilon = EPS_START$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn.py	/^    epsilon = 0$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_feat.py	/^        epsilon = EPS_END$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_feat.py	/^        epsilon = EPS_START - (num_episodes - EPS_CONST) \/ (EPS_DECAY - EPS_CONST) * (EPS_START - EPS_END)$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_feat.py	/^        epsilon = EPS_START$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    epsilon = 0$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^        epsilon = EPS_END$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^        epsilon = EPS_START - (i - EPS_CONST) \/ (EPS_DECAY - EPS_CONST) * (EPS_START - EPS_END)$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^        epsilon = EPS_START$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    epsilon = 0$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^        epsilon = EPS_END$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^        epsilon = EPS_START - (num_episodes - EPS_CONST) \/ (EPS_DECAY - EPS_CONST) * (EPS_START - EPS_END)$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^        epsilon = EPS_START$/;"	v	language:Python
-epsilon	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    epsilon = 0$/;"	v	language:Python
-EPS_CONST	/home/darshan/doom/dtc/doom_dqn.py	/^EPS_CONST = NUM_EPOCHS * .1$/;"	v	language:Python
-EPS_CONST	/home/darshan/doom/dtc/doom_dqn_feat.py	/^EPS_CONST = MAX_EPISODES * .1$/;"	v	language:Python
-EPS_CONST	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^EPS_CONST = NUM_EPOCHS * .1$/;"	v	language:Python
-EPS_CONST	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^EPS_CONST = MAX_EPISODES * .1$/;"	v	language:Python
-EPS_DECAY	/home/darshan/doom/dtc/doom_dqn.py	/^EPS_DECAY = NUM_EPOCHS * .70$/;"	v	language:Python
-EPS_DECAY	/home/darshan/doom/dtc/doom_dqn_feat.py	/^EPS_DECAY = MAX_EPISODES * .70$/;"	v	language:Python
-EPS_DECAY	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^EPS_DECAY = NUM_EPOCHS * .70$/;"	v	language:Python
-EPS_DECAY	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^EPS_DECAY = MAX_EPISODES * .70$/;"	v	language:Python
-EPS_END	/home/darshan/doom/dtc/doom_dqn.py	/^EPS_END = .1$/;"	v	language:Python
-EPS_END	/home/darshan/doom/dtc/doom_dqn_feat.py	/^EPS_END = .1$/;"	v	language:Python
-EPS_END	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^EPS_END = .1$/;"	v	language:Python
-EPS_END	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^EPS_END = .1$/;"	v	language:Python
-EPS_START	/home/darshan/doom/dtc/doom_dqn.py	/^EPS_START = .95$/;"	v	language:Python
-EPS_START	/home/darshan/doom/dtc/doom_dqn_feat.py	/^EPS_START = .95$/;"	v	language:Python
-EPS_START	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^EPS_START = .95$/;"	v	language:Python
-EPS_START	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^EPS_START = .95$/;"	v	language:Python
-forward	/home/darshan/doom/dtc/doom_dqn.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
-forward	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
-forward	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
-forward	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
-forward	/home/darshan/doom/dtc/play25_model.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
-forward	/home/darshan/doom/dtc/play_feat.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
-forward	/home/darshan/doom/dtc/play_model.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
-forward	/home/darshan/doom/dtc/play_pen.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
-frame_repeat	/home/darshan/doom/dtc/doom_dqn.py	/^frame_repeat = 12$/;"	v	language:Python
-frame_repeat	/home/darshan/doom/dtc/doom_dqn_feat.py	/^frame_repeat = 4$/;"	v	language:Python
-frame_repeat	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^frame_repeat = 12$/;"	v	language:Python
-frame_repeat	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^frame_repeat = 4$/;"	v	language:Python
-frame_repeat	/home/darshan/doom/dtc/play25_model.py	/^frame_repeat = 4$/;"	v	language:Python
-frame_repeat	/home/darshan/doom/dtc/play_feat.py	/^frame_repeat = 4$/;"	v	language:Python
-frame_repeat	/home/darshan/doom/dtc/play_pen.py	/^frame_repeat = 4$/;"	v	language:Python
-game	/home/darshan/doom/dtc/doom_dqn.py	/^game = initialize_vizdoom(config_file_path)$/;"	v	language:Python
-game	/home/darshan/doom/dtc/doom_dqn_feat.py	/^game = initialize_vizdoom(config_file_path)$/;"	v	language:Python
-game	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^game = initialize_vizdoom(config_file_path)$/;"	v	language:Python
-game	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^game = initialize_vizdoom(config_file_path)$/;"	v	language:Python
-game	/home/darshan/doom/dtc/play25_model.py	/^game = initialize_vizdoom(config_file_path)$/;"	v	language:Python
-game	/home/darshan/doom/dtc/play_feat.py	/^game = initialize_vizdoom(config_file_path)$/;"	v	language:Python
-game	/home/darshan/doom/dtc/play_model.py	/^game = initialize_vizdoom(config_file_path)$/;"	v	language:Python
-game	/home/darshan/doom/dtc/play_pen.py	/^game = initialize_vizdoom(config_file_path)$/;"	v	language:Python
-get_action	/home/darshan/doom/dtc/doom_dqn.py	/^def get_action(input):$/;"	f	language:Python
-get_action	/home/darshan/doom/dtc/doom_dqn_feat.py	/^def get_action(input):$/;"	f	language:Python
-get_action	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^def get_action(input):$/;"	f	language:Python
-get_action	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^def get_action(input):$/;"	f	language:Python
-get_action	/home/darshan/doom/dtc/play25_model.py	/^def get_action(input):$/;"	f	language:Python
-get_action	/home/darshan/doom/dtc/play_feat.py	/^def get_action(input):$/;"	f	language:Python
-get_action	/home/darshan/doom/dtc/play_model.py	/^def get_action(input):$/;"	f	language:Python
-get_action	/home/darshan/doom/dtc/play_pen.py	/^def get_action(input):$/;"	f	language:Python
-get_current_state	/home/darshan/doom/dtc/doom_dqn.py	/^def get_current_state():$/;"	f	language:Python
-get_current_state	/home/darshan/doom/dtc/doom_dqn_feat.py	/^def get_current_state():$/;"	f	language:Python
-get_current_state	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^def get_current_state():$/;"	f	language:Python
-get_current_state	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^def get_current_state():$/;"	f	language:Python
-get_current_state	/home/darshan/doom/dtc/play25_model.py	/^def get_current_state():$/;"	f	language:Python
-get_current_state	/home/darshan/doom/dtc/play_feat.py	/^def get_current_state():$/;"	f	language:Python
-get_current_state	/home/darshan/doom/dtc/play_model.py	/^def get_current_state():$/;"	f	language:Python
-get_current_state	/home/darshan/doom/dtc/play_pen.py	/^def get_current_state():$/;"	f	language:Python
-get_q	/home/darshan/doom/dtc/doom_dqn.py	/^def get_q(input):$/;"	f	language:Python
-get_q	/home/darshan/doom/dtc/doom_dqn_feat.py	/^def get_q(input):$/;"	f	language:Python
-get_q	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^def get_q(input):$/;"	f	language:Python
-get_q	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^def get_q(input):$/;"	f	language:Python
-get_q	/home/darshan/doom/dtc/play25_model.py	/^def get_q(input):$/;"	f	language:Python
-get_q	/home/darshan/doom/dtc/play_feat.py	/^def get_q(input):$/;"	f	language:Python
-get_q	/home/darshan/doom/dtc/play_model.py	/^def get_q(input):$/;"	f	language:Python
-get_q	/home/darshan/doom/dtc/play_pen.py	/^def get_q(input):$/;"	f	language:Python
-global_training_steps	/home/darshan/doom/dtc/doom_dqn_feat.py	/^global_training_steps = 0$/;"	v	language:Python
-global_training_steps	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^global_training_steps = 0$/;"	v	language:Python
-i	/home/darshan/doom/dtc/doom_dqn_feat.py	/^i = 0$/;"	v	language:Python
-i	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^i = 0$/;"	v	language:Python
-initialize_vizdoom	/home/darshan/doom/dtc/doom_dqn.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
-initialize_vizdoom	/home/darshan/doom/dtc/doom_dqn_feat.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
-initialize_vizdoom	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
-initialize_vizdoom	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
-initialize_vizdoom	/home/darshan/doom/dtc/play25_model.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
-initialize_vizdoom	/home/darshan/doom/dtc/play_feat.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
-initialize_vizdoom	/home/darshan/doom/dtc/play_model.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
-initialize_vizdoom	/home/darshan/doom/dtc/play_pen.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
-learn	/home/darshan/doom/dtc/doom_dqn.py	/^def learn(eps):$/;"	f	language:Python
-learn	/home/darshan/doom/dtc/doom_dqn_feat.py	/^def learn(eps):$/;"	f	language:Python
-learn	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^def learn(eps):$/;"	f	language:Python
-learn	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^def learn(eps):$/;"	f	language:Python
-learning_rate	/home/darshan/doom/dtc/doom_dqn.py	/^learning_rate = 0.00025$/;"	v	language:Python
-learning_rate	/home/darshan/doom/dtc/doom_dqn_feat.py	/^learning_rate = 0.00025$/;"	v	language:Python
-learning_rate	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^learning_rate = 0.00025$/;"	v	language:Python
-learning_rate	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^learning_rate = 0.00025$/;"	v	language:Python
-learning_steps	/home/darshan/doom/dtc/doom_dqn.py	/^    learning_steps = 0$/;"	v	language:Python
-learning_steps	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    learning_steps = 0$/;"	v	language:Python
-learning_steps	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    learning_steps = 0$/;"	v	language:Python
-learning_steps	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    learning_steps = 0$/;"	v	language:Python
-learning_steps_per_epoch	/home/darshan/doom/dtc/doom_dqn.py	/^learning_steps_per_epoch = 2000$/;"	v	language:Python
-learning_steps_per_epoch	/home/darshan/doom/dtc/doom_dqn_feat.py	/^learning_steps_per_epoch = 2000$/;"	v	language:Python
-learning_steps_per_epoch	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^learning_steps_per_epoch = 2000$/;"	v	language:Python
-learning_steps_per_epoch	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^learning_steps_per_epoch = 2000$/;"	v	language:Python
-learn_replay	/home/darshan/doom/dtc/doom_dqn.py	/^def learn_replay():$/;"	f	language:Python
-learn_replay	/home/darshan/doom/dtc/doom_dqn_feat.py	/^def learn_replay():$/;"	f	language:Python
-learn_replay	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^def learn_replay():$/;"	f	language:Python
-learn_replay	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^def learn_replay():$/;"	f	language:Python
-MAX_EPISODES	/home/darshan/doom/dtc/doom_dqn_feat.py	/^MAX_EPISODES=8000$/;"	v	language:Python
-MAX_EPISODES	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^MAX_EPISODES=8000$/;"	v	language:Python
-model_savefile	/home/darshan/doom/dtc/doom_dqn.py	/^model_savefile = ".\/weights.dump"$/;"	v	language:Python
-model_savefile	/home/darshan/doom/dtc/doom_dqn_feat.py	/^model_savefile = ".\/weights_feat.dump"$/;"	v	language:Python
-model_savefile	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^model_savefile = ".\/sp_weights.dump"$/;"	v	language:Python
-model_savefile	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^model_savefile = ".\/weights_long.dump"$/;"	v	language:Python
-model_savefile	/home/darshan/doom/dtc/play25_model.py	/^model_savefile = ".\/weights_long.dump"$/;"	v	language:Python
-model_savefile	/home/darshan/doom/dtc/play_feat.py	/^model_savefile = ".\/weights_feat.dump"$/;"	v	language:Python
-model_savefile	/home/darshan/doom/dtc/play_model.py	/^model_savefile = ".\/sp_weights.dump"$/;"	v	language:Python
-model_savefile	/home/darshan/doom/dtc/play_pen.py	/^model_savefile = ".\/weights_pen.dump"$/;"	v	language:Python
-mse	/home/darshan/doom/dtc/doom_dqn.py	/^mse = nn.MSELoss()$/;"	v	language:Python
-mse	/home/darshan/doom/dtc/doom_dqn_feat.py	/^mse = nn.MSELoss()$/;"	v	language:Python
-mse	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^mse = nn.MSELoss()$/;"	v	language:Python
-mse	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^mse = nn.MSELoss()$/;"	v	language:Python
-num_episodes	/home/darshan/doom/dtc/doom_dqn.py	/^    num_episodes = 0$/;"	v	language:Python
-num_episodes	/home/darshan/doom/dtc/doom_dqn_feat.py	/^num_episodes = 0$/;"	v	language:Python
-num_episodes	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    num_episodes = 0$/;"	v	language:Python
-num_episodes	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^num_episodes = 0$/;"	v	language:Python
-NUM_EPOCHS	/home/darshan/doom/dtc/doom_dqn.py	/^NUM_EPOCHS = 20$/;"	v	language:Python
-NUM_EPOCHS	/home/darshan/doom/dtc/doom_dqn_feat.py	/^NUM_EPOCHS = 20$/;"	v	language:Python
-NUM_EPOCHS	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^NUM_EPOCHS = 20$/;"	v	language:Python
-NUM_EPOCHS	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^NUM_EPOCHS = 20$/;"	v	language:Python
-num_flat_features	/home/darshan/doom/dtc/doom_dqn.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
-num_flat_features	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
-num_flat_features	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
-num_flat_features	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
-num_flat_features	/home/darshan/doom/dtc/play25_model.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
-num_flat_features	/home/darshan/doom/dtc/play_feat.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
-num_flat_features	/home/darshan/doom/dtc/play_model.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
-num_flat_features	/home/darshan/doom/dtc/play_pen.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
-optimizer	/home/darshan/doom/dtc/doom_dqn.py	/^optimizer = optim.SGD(dqn.parameters(), lr=learning_rate)$/;"	v	language:Python
-optimizer	/home/darshan/doom/dtc/doom_dqn_feat.py	/^optimizer = optim.SGD(dqn.parameters(), lr=learning_rate)$/;"	v	language:Python
-optimizer	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^optimizer = optim.SGD(dqn.parameters(), lr=learning_rate)$/;"	v	language:Python
-optimizer	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^optimizer = optim.SGD(dqn.parameters(), lr=learning_rate)$/;"	v	language:Python
-preprocess	/home/darshan/doom/dtc/doom_dqn.py	/^def preprocess(image):$/;"	f	language:Python
-preprocess	/home/darshan/doom/dtc/doom_dqn_feat.py	/^def preprocess(image):$/;"	f	language:Python
-preprocess	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^def preprocess(image):$/;"	f	language:Python
-preprocess	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^def preprocess(image):$/;"	f	language:Python
-preprocess	/home/darshan/doom/dtc/play25_model.py	/^def preprocess(image):$/;"	f	language:Python
-preprocess	/home/darshan/doom/dtc/play_feat.py	/^def preprocess(image):$/;"	f	language:Python
-preprocess	/home/darshan/doom/dtc/play_model.py	/^def preprocess(image):$/;"	f	language:Python
-preprocess	/home/darshan/doom/dtc/play_pen.py	/^def preprocess(image):$/;"	f	language:Python
-Replay	/home/darshan/doom/dtc/doom_dqn.py	/^class Replay:$/;"	c	language:Python
-replay	/home/darshan/doom/dtc/doom_dqn.py	/^replay = Replay(replay_memory_size)$/;"	v	language:Python
-Replay	/home/darshan/doom/dtc/doom_dqn_feat.py	/^class Replay:$/;"	c	language:Python
-replay	/home/darshan/doom/dtc/doom_dqn_feat.py	/^replay = Replay(replay_memory_size)$/;"	v	language:Python
-Replay	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^class Replay:$/;"	c	language:Python
-replay	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^replay = Replay(replay_memory_size)$/;"	v	language:Python
-Replay	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^class Replay:$/;"	c	language:Python
-replay	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^replay = Replay(replay_memory_size)$/;"	v	language:Python
-replay_memory_size	/home/darshan/doom/dtc/doom_dqn.py	/^replay_memory_size = 10000$/;"	v	language:Python
-replay_memory_size	/home/darshan/doom/dtc/doom_dqn_feat.py	/^replay_memory_size = 10000$/;"	v	language:Python
-replay_memory_size	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^replay_memory_size = 10000$/;"	v	language:Python
-replay_memory_size	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^replay_memory_size = 10000$/;"	v	language:Python
-resolution	/home/darshan/doom/dtc/doom_dqn.py	/^resolution = (3, 90, 120)$/;"	v	language:Python
-resolution	/home/darshan/doom/dtc/doom_dqn_feat.py	/^resolution = (3, 60, 80)$/;"	v	language:Python
-resolution	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^resolution = (3, 90, 120)$/;"	v	language:Python
-resolution	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^resolution = (3, 60, 80)$/;"	v	language:Python
-resolution	/home/darshan/doom/dtc/play25_model.py	/^resolution = (3, 60, 80)$/;"	v	language:Python
-resolution	/home/darshan/doom/dtc/play_feat.py	/^resolution = (3, 60, 80)$/;"	v	language:Python
-resolution	/home/darshan/doom/dtc/play_model.py	/^resolution = (3, 90, 120)$/;"	v	language:Python
-resolution	/home/darshan/doom/dtc/play_pen.py	/^resolution = (1, 60, 80)$/;"	v	language:Python
-sample	/home/darshan/doom/dtc/doom_dqn.py	/^    def sample(self, batch_size):$/;"	m	language:Python	class:Replay
-sample	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    def sample(self, batch_size):$/;"	m	language:Python	class:Replay
-sample	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    def sample(self, batch_size):$/;"	m	language:Python	class:Replay
-sample	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    def sample(self, batch_size):$/;"	m	language:Python	class:Replay
-score	/home/darshan/doom/dtc/doom_dqn.py	/^    score = game.get_total_reward()$/;"	v	language:Python
-score	/home/darshan/doom/dtc/doom_dqn.py	/^    score = game.get_total_reward()$/;"	v	language:Python
-score	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    score = game.get_total_reward()$/;"	v	language:Python
-score	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    score = game.get_total_reward()$/;"	v	language:Python
-score	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    score = game.get_total_reward()$/;"	v	language:Python
-score	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    score = game.get_total_reward()$/;"	v	language:Python
-score	/home/darshan/doom/dtc/play25_model.py	/^    score = game.get_total_reward()$/;"	v	language:Python	class:DQN
-score	/home/darshan/doom/dtc/play_feat.py	/^    score = game.get_total_reward()$/;"	v	language:Python	class:DQN
-score	/home/darshan/doom/dtc/play_model.py	/^    score = game.get_total_reward()$/;"	v	language:Python	class:DQN
-score	/home/darshan/doom/dtc/play_pen.py	/^    score = game.get_total_reward()$/;"	v	language:Python	class:DQN
-scores	/home/darshan/doom/dtc/doom_dqn.py	/^    scores = []$/;"	v	language:Python
-scores	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    scores = []$/;"	v	language:Python
-scores	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    scores = []$/;"	v	language:Python
-scores	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    scores = []$/;"	v	language:Python
-size	/home/darshan/doom/dtc/doom_dqn.py	/^    size = 0$/;"	v	language:Python	class:Replay
-size	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    size = 0$/;"	v	language:Python	class:Replay
-size	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    size = 0$/;"	v	language:Python	class:Replay
-size	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    size = 0$/;"	v	language:Python	class:Replay
-state	/home/darshan/doom/dtc/doom_dqn.py	/^        state = get_current_state()$/;"	v	language:Python
-state	/home/darshan/doom/dtc/doom_dqn.py	/^        state = get_current_state()$/;"	v	language:Python
-state	/home/darshan/doom/dtc/doom_dqn.py	/^        state = state.view(1, 3, resolution[1], resolution[2])$/;"	v	language:Python
-state	/home/darshan/doom/dtc/doom_dqn.py	/^        state = state.view(1, 3, resolution[1], resolution[2])$/;"	v	language:Python
-state	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^        state = get_current_state()$/;"	v	language:Python
-state	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^        state = get_current_state()$/;"	v	language:Python
-state	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^        state = state.view(1, 3, resolution[1], resolution[2])$/;"	v	language:Python
-state	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^        state = state.view(1, 3, resolution[1], resolution[2])$/;"	v	language:Python
-state	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^        state = get_current_state()$/;"	v	language:Python
-state	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^        state = state.view(1, 3, resolution[1], resolution[2])$/;"	v	language:Python
-test_episodes_per_epoch	/home/darshan/doom/dtc/doom_dqn.py	/^test_episodes_per_epoch = 100$/;"	v	language:Python
-test_episodes_per_epoch	/home/darshan/doom/dtc/doom_dqn_feat.py	/^test_episodes_per_epoch = 100$/;"	v	language:Python
-test_episodes_per_epoch	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^test_episodes_per_epoch = 100$/;"	v	language:Python
-test_episodes_per_epoch	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^test_episodes_per_epoch = 100$/;"	v	language:Python
-__init__	/home/darshan/doom/dtc/doom_dqn.py	/^    def __init__(self):$/;"	m	language:Python	class:DQN
-__init__	/home/darshan/doom/dtc/doom_dqn.py	/^    def __init__(self, capacity):$/;"	m	language:Python	class:Replay
-__init__	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    def __init__(self):$/;"	m	language:Python	class:DQN
-__init__	/home/darshan/doom/dtc/doom_dqn_feat.py	/^    def __init__(self, capacity):$/;"	m	language:Python	class:Replay
-__init__	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    def __init__(self):$/;"	m	language:Python	class:DQN
-__init__	/home/darshan/doom/dtc/doom_dqn_shoot_pen.py	/^    def __init__(self, capacity):$/;"	m	language:Python	class:Replay
-__init__	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    def __init__(self):$/;"	m	language:Python	class:DQN
-__init__	/home/darshan/doom/dtc/doom_dqn_shoot_pen1.py	/^    def __init__(self, capacity):$/;"	m	language:Python	class:Replay
-__init__	/home/darshan/doom/dtc/play25_model.py	/^    def __init__(self):$/;"	m	language:Python	class:DQN
-__init__	/home/darshan/doom/dtc/play_feat.py	/^    def __init__(self):$/;"	m	language:Python	class:DQN
-__init__	/home/darshan/doom/dtc/play_model.py	/^    def __init__(self):$/;"	m	language:Python	class:DQN
-__init__	/home/darshan/doom/dtc/play_pen.py	/^    def __init__(self):$/;"	m	language:Python	class:DQN
+a	/home/darshan/rl/dtc/dqn.py	/^a = Variable(torch.Tensor([1,2,3]))$/;"	v	language:Python
+add	/home/darshan/rl/dtc/dqn.py	/^    def add(self, s1, s2, action, reward, done):$/;"	m	language:Python	class:Replay
+add_to_replay	/home/darshan/rl/dtc/dqn.py	/^def add_to_replay(eps, game, dqn, frames, actions, replay):$/;"	f	language:Python
+batch_size	/home/darshan/rl/dtc/dqn.py	/^batch_size = 32$/;"	v	language:Python
+batch_size	/home/darshan/rl/dtc/watch_dqn.py	/^batch_size = 32$/;"	v	language:Python
+config_file_path	/home/darshan/rl/dtc/dqn.py	/^config_file_path = '.\/defend_the_center.cfg'$/;"	v	language:Python
+config_file_path	/home/darshan/rl/dtc/watch_dqn.py	/^config_file_path = '.\/defend_the_center.cfg'$/;"	v	language:Python
+create_state	/home/darshan/rl/dtc/dqn.py	/^def create_state(cur_frame, frames, replace=True):$/;"	f	language:Python
+create_state	/home/darshan/rl/dtc/watch_dqn.py	/^def create_state(cur_frame, frames, replace=True):$/;"	f	language:Python
+curIndex	/home/darshan/rl/dtc/dqn.py	/^    curIndex = 0$/;"	v	language:Python	class:Replay
+discount_factor	/home/darshan/rl/dtc/dqn.py	/^discount_factor = 0.99$/;"	v	language:Python
+discount_factor	/home/darshan/rl/dtc/watch_dqn.py	/^discount_factor = 0.99$/;"	v	language:Python
+DQN	/home/darshan/rl/dtc/dqn.py	/^class DQN(nn.Module):$/;"	c	language:Python
+DQN	/home/darshan/rl/dtc/watch_dqn.py	/^class DQN(nn.Module):$/;"	c	language:Python
+episodes_to_watch	/home/darshan/rl/dtc/dqn.py	/^episodes_to_watch = 10$/;"	v	language:Python
+episodes_to_watch	/home/darshan/rl/dtc/watch_dqn.py	/^episodes_to_watch = 10$/;"	v	language:Python
+epochs	/home/darshan/rl/dtc/dqn.py	/^epochs = 20$/;"	v	language:Python
+epochs	/home/darshan/rl/dtc/watch_dqn.py	/^epochs = 20$/;"	v	language:Python
+forward	/home/darshan/rl/dtc/dqn.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
+forward	/home/darshan/rl/dtc/watch_dqn.py	/^    def forward(self, x):$/;"	m	language:Python	class:DQN
+frame_repeat	/home/darshan/rl/dtc/dqn.py	/^frame_repeat = 4$/;"	v	language:Python
+frame_repeat	/home/darshan/rl/dtc/watch_dqn.py	/^frame_repeat = 4$/;"	v	language:Python
+get_action	/home/darshan/rl/dtc/dqn.py	/^def get_action(input, dqn):$/;"	f	language:Python
+get_action	/home/darshan/rl/dtc/watch_dqn.py	/^def get_action(input, dqn):$/;"	f	language:Python
+get_current_vars	/home/darshan/rl/dtc/dqn.py	/^def get_current_vars(game):$/;"	f	language:Python
+get_current_vars	/home/darshan/rl/dtc/watch_dqn.py	/^def get_current_vars(game):$/;"	f	language:Python
+get_q	/home/darshan/rl/dtc/dqn.py	/^def get_q(input, dqn):$/;"	f	language:Python
+get_q	/home/darshan/rl/dtc/watch_dqn.py	/^def get_q(input, dqn):$/;"	f	language:Python
+initialize_vizdoom	/home/darshan/rl/dtc/dqn.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
+initialize_vizdoom	/home/darshan/rl/dtc/watch_dqn.py	/^def initialize_vizdoom(config_file_path):$/;"	f	language:Python
+learn	/home/darshan/rl/dtc/dqn.py	/^def learn(game, dqn, target_dqn, frames, actions, replay, batch_size, optimizer):$/;"	f	language:Python
+learning_rate	/home/darshan/rl/dtc/dqn.py	/^learning_rate = 0.00025$/;"	v	language:Python
+learning_rate	/home/darshan/rl/dtc/watch_dqn.py	/^learning_rate = 0.00025$/;"	v	language:Python
+learning_steps_per_epoch	/home/darshan/rl/dtc/dqn.py	/^learning_steps_per_epoch = 2000$/;"	v	language:Python
+learning_steps_per_epoch	/home/darshan/rl/dtc/watch_dqn.py	/^learning_steps_per_epoch = 2000$/;"	v	language:Python
+main	/home/darshan/rl/dtc/dqn.py	/^def main():$/;"	f	language:Python
+main	/home/darshan/rl/dtc/watch_dqn.py	/^def main():$/;"	f	language:Python
+model_savefile	/home/darshan/rl/dtc/dqn.py	/^model_savefile = ".\/weights.dump"$/;"	v	language:Python
+model_savefile	/home/darshan/rl/dtc/watch_dqn.py	/^model_savefile = ".\/weights.dump"$/;"	v	language:Python
+num_flat_features	/home/darshan/rl/dtc/dqn.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
+num_flat_features	/home/darshan/rl/dtc/watch_dqn.py	/^    def num_flat_features(self, x):$/;"	m	language:Python	class:DQN
+preprocess	/home/darshan/rl/dtc/dqn.py	/^def preprocess(image):$/;"	f	language:Python
+preprocess	/home/darshan/rl/dtc/watch_dqn.py	/^def preprocess(image):$/;"	f	language:Python
+Replay	/home/darshan/rl/dtc/dqn.py	/^class Replay:$/;"	c	language:Python
+replay_memory_size	/home/darshan/rl/dtc/dqn.py	/^replay_memory_size = 10000$/;"	v	language:Python
+replay_memory_size	/home/darshan/rl/dtc/watch_dqn.py	/^replay_memory_size = 10000$/;"	v	language:Python
+resolution	/home/darshan/rl/dtc/dqn.py	/^resolution = (60, 80)$/;"	v	language:Python
+resolution	/home/darshan/rl/dtc/watch_dqn.py	/^resolution = (60, 80)$/;"	v	language:Python
+sample	/home/darshan/rl/dtc/dqn.py	/^    def sample(self, batch_size):$/;"	m	language:Python	class:Replay
+size	/home/darshan/rl/dtc/dqn.py	/^    size = 0$/;"	v	language:Python	class:Replay
+stack_size	/home/darshan/rl/dtc/dqn.py	/^stack_size=4$/;"	v	language:Python
+stack_size	/home/darshan/rl/dtc/watch_dqn.py	/^stack_size=4$/;"	v	language:Python
+test	/home/darshan/rl/dtc/dqn.py	/^def test(game, dqn, actions, visualize=False):$/;"	f	language:Python
+test	/home/darshan/rl/dtc/watch_dqn.py	/^def test(game, dqn, actions, visualize=False):$/;"	f	language:Python
+test_episodes_per_epoch	/home/darshan/rl/dtc/dqn.py	/^test_episodes_per_epoch = 100$/;"	v	language:Python
+test_episodes_per_epoch	/home/darshan/rl/dtc/watch_dqn.py	/^test_episodes_per_epoch = 100$/;"	v	language:Python
+train	/home/darshan/rl/dtc/dqn.py	/^def train(game, dqn, target_dqn, actions, replay, optimizer, num_episodes=0, training_step=0):$/;"	f	language:Python
+update_frequency	/home/darshan/rl/dtc/dqn.py	/^update_frequency=4$/;"	v	language:Python
+update_frequency	/home/darshan/rl/dtc/watch_dqn.py	/^update_frequency=4$/;"	v	language:Python
+__init__	/home/darshan/rl/dtc/dqn.py	/^    def __init__(self, actions):$/;"	m	language:Python	class:DQN
+__init__	/home/darshan/rl/dtc/dqn.py	/^    def __init__(self, capacity):$/;"	m	language:Python	class:Replay
+__init__	/home/darshan/rl/dtc/watch_dqn.py	/^    def __init__(self, actions):$/;"	m	language:Python	class:DQN
