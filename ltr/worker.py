@@ -91,7 +91,7 @@ class Worker():
                     if not path[-1].done:
                         reward = self.value_net.predict(path[-1].state, path[-1].action)
 
-                    for transition in path:
+                    for transition in path[::-1]:
                         reward = transition.reward + self.discount_factor * reward
                         states.append(transition.state)
                         errors.append(reward - self.value_net.predict(transition.state, transition.action))
